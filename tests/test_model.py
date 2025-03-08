@@ -19,7 +19,7 @@ def model() -> mlflow.pyfunc.PyFuncModel:
 def test_model_out(model: mlflow.pyfunc.PyFuncModel):
     input = pd.DataFrame.from_records([{
         'Pregnancies': 0,
-        'Glucose': 30,
+        'Glucose': 20,
         'BloodPressure': 88,
         'SkinThickness': 60,
         'Insulin': 110,
