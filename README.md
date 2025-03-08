@@ -147,3 +147,6 @@ Set-ExecutionPolicy Unrestricted -Scope LocalMachine -Force
 ## Docker
 
 docker login atraves do vscode -> https://github.com/settings/tokens pat precisa de read e write nos packages
+
+
+test
