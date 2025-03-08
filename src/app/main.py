@@ -87,5 +87,9 @@ async def predict(input: Request):
     # Return the prediction result as a JSON response
     return {"prediction": prediction.tolist()[0]}
 
+@app.get("/bye")
+def hello():
+    return "Bye!"
+
 # Run the app on port 5003
 uvicorn.run(app=app, port=config["service_port"], host="0.0.0.0")
