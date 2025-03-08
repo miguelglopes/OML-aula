@@ -19,6 +19,9 @@ jobs:
 
       - name: Listar diretoria
         run: ls -lah 
-        
+
       - name: caminho
         run: pwd
+
+      - name: conda version
+        run: conda --version
