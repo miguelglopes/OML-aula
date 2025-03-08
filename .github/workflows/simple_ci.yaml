@@ -1,0 +1,11 @@
+name: Simple CI/CD
+
+on:
+  push:
+
+jobs:
+  simpleci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Listar diretoria
+        run: ls -lah 
