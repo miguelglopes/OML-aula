@@ -19,7 +19,7 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: MLFLOW Tracking server + Service
-        run: docker compose up --build
+        run: docker compose up -d --build
 
       - name: instalar dependencias do conda
         uses: conda-incubator/setup-miniconda@v3
