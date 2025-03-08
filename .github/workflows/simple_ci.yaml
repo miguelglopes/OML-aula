@@ -20,6 +20,9 @@ jobs:
       - name: Listar diretoria
         run: ls -lah 
 
+      - name: force error
+        run: sdfgsdgfgsdf
+
       - name: caminho
         run: pwd
 
