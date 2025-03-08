@@ -1,0 +1,24 @@
+name: Simple CI/CD
+
+on:
+  push:
+
+jobs:
+  simpleci:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Listar diretoria
+        run: ls -lah 
+
+      - name: caminho
+        run: pwd
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Listar diretoria
+        run: ls -lah 
+
+      - name: caminho
+        run: pwd
