@@ -91,5 +91,9 @@ async def predict(input: Request):
 def hello():
     return "Hello!"
 
+@app.get("/bye")
+def bye():
+    return "Bye!"
+
 # Run the app on port 5003
 uvicorn.run(app=app, port=config["service_port"], host="0.0.0.0")
