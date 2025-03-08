@@ -88,7 +88,7 @@ async def predict(input: Request):
     return {"prediction": prediction.tolist()[0]}
 
 @app.get("/bye")
-def hello():
+def bye():
     return "Bye!"
 
 # Run the app on port 5003
