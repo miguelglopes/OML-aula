@@ -5,4 +5,4 @@
     "tracking_port": 5000,
     "service_base_url": "http://diabetes-prediction-service",
     "service_port": 5002
-} 
+}
