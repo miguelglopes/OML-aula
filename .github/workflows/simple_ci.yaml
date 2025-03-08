@@ -1,8 +1,5 @@
 name: Simple CI/CD
 
-on:
-  push:
-
 jobs:
   simpleci:
     runs-on: ubuntu-latest
