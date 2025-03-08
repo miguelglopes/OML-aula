@@ -1,0 +1,12 @@
+digest: 8b0cab11
+name: Diabetes Test Dataset
+profile: '{"num_rows": 114, "num_elements": 1026}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "Pregnancies", "required": true},
+  {"type": "long", "name": "Glucose", "required": true}, {"type": "long", "name":
+  "BloodPressure", "required": true}, {"type": "long", "name": "SkinThickness", "required":
+  true}, {"type": "long", "name": "Insulin", "required": true}, {"type": "double",
+  "name": "BMI", "required": true}, {"type": "double", "name": "DiabetesPedigreeFunction",
+  "required": true}, {"type": "long", "name": "Age", "required": true}, {"type": "long",
+  "name": "Outcome", "required": true}]}'
+source: '{"uri": "../../data/diabetes_test.csv"}'
+source_type: local
