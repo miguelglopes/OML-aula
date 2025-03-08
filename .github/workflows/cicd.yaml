@@ -12,6 +12,10 @@ on:
     paths-ignore:
       - README.md
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   cicd:
     runs-on: ubuntu-latest
